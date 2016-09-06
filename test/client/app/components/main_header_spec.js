@@ -6,6 +6,7 @@ var TestUtils = React.addons.TestUtils;
 var MainHeader = require('../../../../client/app/components/main_header');
 var MainNav = require('../../../../client/app/components/main_nav');
 
+//
 // verifying karma-jasmine is working
 describe("components/main_nav", function (){
   var subject;
@@ -13,7 +14,7 @@ describe("components/main_nav", function (){
   beforeEach(function () {
     subject = TestUtils.renderIntoDocument(
       <MainHeader />
-    );
+      );
   });
 
   describe('#render', function () {
